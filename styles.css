@@ -1,0 +1,14 @@
+body{
+ background-color: black;
+ margin: 300px 100px 100px;
+}
+.function{
+margin: 10px 0px 5px 0px;
+}
+.calculator-screen{
+ height: 4rem;
+ text-align: end;
+ color: white;
+ font-size: 2rem;
+ 
+}

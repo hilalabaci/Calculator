@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator container">
+      <div class="row">
+        <input
+          type="text"
+          class="calculator-screen col-12 rounded-pill"
+          value="0"
+          disabled
+        />
+        <button  id="AC"type="button" class="btn-light" value="">AC</button>
+        <button  id="plusminus" type="button" class="btn-light" value="">+/-</button>
+        <button  id="module" type="button" class="btn-light" value="">%</button>
+        <button id="divide" type="button" class="btn-warning" value="">&divide;</button>
+        <button id="7" type="button" class="btn-secondary transparency" value="7">7</button>
+        <button id="8" type="button" class="btn-secondary transparency" value="8">8</button>
+        <button id="9" type="button" class="btn-secondary transparency" value="9">9</button>
+        <button id="multiple"type="button" class="btn-warning" value="">&times;</button>
+        <button id="4" type="button" class="btn-secondary transparency" value="4">4</button>
+        <button id="5" type="button" class="btn-secondary transparency" value="5">5</button>
+        <button id="6" type="button" class="btn-secondary transparency" value="6">6</button>
+        <button id="minus" type="button" class="btn-warning " value="">-</button>
+        <button  id="1"type="button" class="btn-secondary transparency" value="1">1</button>
+        <button id="2" type="button" class="btn-secondary transparency" value="2">2</button>
+        <button id="3" type="button" class="btn-secondary transparency " value="3">3</button>
+        <button id="plus" type="button" class="btn-warning" value="">+</button>
+        <button id="0" type="button" class="col-6 btn-secondary transparency" value="">0</button>
+        <button id="decimal" type="button" class="btn-secondary transparency " value="">.</button>
+        <button id="equals" type="button" class="btn-warning" value="">=</button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
